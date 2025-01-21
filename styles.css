@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    background-image: url('images/brothers.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #333;
+}
+p {
+    font-size: larger;
+}
+
+h2 {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    font-size: 70px;
+    color: #004aad;
+    text-align: center;
+}
+
+p.lebron {
+    color: #004aad;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+img.myself {
+    display: block;
+    margin: 0 auto;
+    flex: 0;
+    align-items: center;
+    height: 50vh;
+    width: 50vw;
+}
+
+header {
+    
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+    font-size: 50px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    font-size: 50px;
+    
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+.intro, .story {
+    max-width: 1200px; 
+    margin: 20px auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+}
+
+.story {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.story img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 8px;
+    justify-self: end;
+}
+
+.story p {
+    text-align: left;
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    .story {
+        grid-template-columns: 1fr;
+    }
+
+    .story img {
+        justify-self: center;
+    }
+}
