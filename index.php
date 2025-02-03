@@ -16,6 +16,18 @@
             </ul>
         </nav>
     </header>
+    
+    <!-- Sidebar Added -->
+    <div class="sidebar">
+        <h2>Quick Links</h2>
+        <ul>
+            <li><a href="index.php">Home</a></li>
+            <li><a href="myself.php">My Journal</a></li>
+            <li><a href="about.php">About Me</a></li>
+            <li><a href="contact.php">Contact</a></li>
+        </ul>
+    </div>
+
     <main>
         <section class="intro">
             <h2>About Me</h2>
@@ -28,8 +40,9 @@
             <img src="images/myself.jpg" alt="Family Photo" class="myself">
             
         </section>
-       
     </main>
+
+    <!-- Footer Added -->
     <footer>
         <p>&copy; 2025 My Journal. All rights reserved.</p>
     </footer>
